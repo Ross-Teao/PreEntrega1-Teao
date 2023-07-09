@@ -6,7 +6,6 @@
 body{
   background-image: url(/web/assets/image/papiro.jpg);
 
-
 }
 
 /* Header */
@@ -111,15 +110,15 @@ body{
   text-align: center;
   color: rgb(0, 0, 0);
   font-family: "Latin Modern Roman";
-
   position: relative;
   top:22px;
+
 }
 .logo2{
   height: 30px;
   width: 30px;
   position: relative;
-  left: 1350px;
+  left: 1210px;
   bottom: 3px;
 }
 
@@ -127,7 +126,7 @@ body{
   height: 25px;
   width: 25px;
   position: relative;
-  left: 1350px;
+  left: 1150px;
   bottom:6px;
 
 }
@@ -136,7 +135,7 @@ body{
   height: 25px;
   width: 25px;
   position: relative;
-  left: 1350px;
+  left: 1200px;
   bottom:6px;
 
 }
@@ -145,7 +144,7 @@ body{
   height: 35px;
   width: 35px;
   position: relative;
-  left: 1350px;
+  left: 1140px;
   bottom:6px;
 
 }
@@ -161,7 +160,7 @@ body{
 
 .section2{
   background-image: url(/web/assets/image/fondo2.jpg);
-  height: 910px;
+  height: 1060px;
   
 }
 
@@ -172,5 +171,132 @@ body{
   margin: 10px;
   display: inline;
   border: 10px solid black;
+  position: relative;
+  top: 50px;
 
+}
+
+.version_boton1{
+  color: rgb(5, 234, 255);
+  background-image: url(/web/assets/image/papiro.jpg);
+  border-radius: 10px;
+  width: 220px;
+  height: 220px;
+  position: relative;
+  left: 1105px;
+  bottom:700px;
+  
+  
+}
+
+.version_boton2{
+  color: rgb(5, 234, 255);
+  background-image: url(/web/assets/image/papiro.jpg);
+  border-radius: 10px;
+  width: 220px;
+  height: 220px;
+  position: relative;
+  left: 880px;
+  bottom:450px;
+  display: inline block;
+
+  
+}
+
+.version_boton3{
+  color: rgb(5, 234, 255);
+  background-image: url(/web/assets/image/papiro.jpg);
+  border-radius: 10px;
+  width: 220px;
+  height: 220px;
+  position: relative;
+  left: 655px;
+  bottom: 200px;
+  display: inline block;
+  
+}
+
+
+/* HTML Nosotros */
+
+.empresa{
+
+  margin: 10px;
+  border: 10px solid;
+  position: relative;
+  border-image: url(/web/assets/image/papiro.jpg) 30 repeat;
+
+}
+
+.section3{
+  background-image: url(/web/assets/image/fondo3.jpg);
+  height: 790px;
+  
+}
+
+.Introducccion2{
+  text-align: center;
+  color: rgb(225, 255, 0);
+  font-family: "Latin Modern Roman";
+  font-size: 19px;
+  position: relative;
+  top:35px;
+}
+
+/* HTML Contacto */
+
+.section4{
+  background-image: url(/web/assets/image/fondo4.jpg);
+  height: 600px;
+  
+}
+
+.Introducccion3{
+  text-align: center;
+  color: rgb(225, 255, 0);
+  font-family: "Latin Modern Roman";
+  font-size: 19px;
+  position: relative;
+  top:35px;
+}
+
+.formulario{
+  color: rgb(0, 242, 255);
+  font-family: "Latin Modern Roman";
+  font-size: 25px;
+  position: relative;
+  top: 50px;
+
+}
+
+.formulario2{
+  color: rgb(0, 242, 255);
+  font-family: "Latin Modern Roman";
+  font-size: 25px;
+  position: relative;
+  top: 395px;
+  position: absolute;
+  left: 500px;
+
+}
+
+
+
+.formulario3{
+  color: rgb(0, 242, 255);
+  font-family: "Latin Modern Roman";
+  font-size: 25px;
+  position: relative;
+  top: 450px;
+  position: absolute;
+  left: 900px;
+  
+}
+
+/* HTML Extra */
+
+.section5{
+  background-image: url(/web/assets/image/fondo5.jpg);
+  height: 600px;
+  
 }
