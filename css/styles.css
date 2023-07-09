@@ -3,110 +3,174 @@
     padding: 0;
 }
 
-.header1 {
-  background: red;
-  height: auto;
-  text-align: left;
-  
+body{
+  background-image: url(/web/assets/image/papiro.jpg);
+
+
 }
 
+/* Header */
+.header1 {
+  height: 59px;
+  text-align: left;
+  background-image: url(/web/assets/image/papiro.jpg);
+  
+}
+.logoweb{
+  height: 90px;
+  width: 130px;
+  position: relative;
+  left: 20px;
+  top: 4px;
+}
+/* ---------------------------------------- */
+
+/* Barra de navegacion */
 .nav1{
-  background: brown;
   height: 35px;
   text-align: center;
   height: auto;
+  background-image: url(/web/assets/image/papiro.jpg);
+}
+.menu{
+  color: rgb(5, 234, 255);
+  height: 28px;
+  width: 95px;
+  background-image: url(/web/assets/image/papiro.jpg);
+  border-radius: 10px;
+  text-decoration-line: none;
+  font: 86% sans-serif;
+  
 }
 
+
+.spaceL {
+  position: relative;
+  left: -20px;
+  bottom: 28px;
+}
+
+.producto {
+  position: relative;
+  bottom: 28px;
+}
+
+.spaceR {
+  position: relative;
+  right: -20px;
+  bottom: 28px;
+}
+.spaceR2 {
+  position: relative;
+  right: -40px;
+  bottom: 28px;
+}
+
+.spaceR3 {
+  position: relative;
+  right: -58px;
+  bottom: 28px;
+}
+
+.versiones1 {
+  position: relative;
+  top:50px;
+}
+
+/* ------------------------------ */
+
+/* Primer section */
 .section1{
-  background: orange;
-  height: auto;
-  width: auto;
-}
-.primercuadro{
-  background-color: red;
-  width: 300px;
-  height: 300px;
-  padding: 10px;
-  /* border: 15px solid rgb(51, 201, 10); */
-  margin: 10px;
-  border: 10px solid black;
-  border-image: url(/web/assets/image/fondo.jpg) 30;
-}
-
-.segundocuadro{
-  background-color: red;
-  width: 300px;
-  height: 300px;
-  padding: 10px;
-  border: 10px solid black;
-  margin: 10px;
-  border-image: url(/web/assets/image/fondo.jpg) 30;
-
-
-}
-
-.aside1{
-  background: yellow;
-  height: 40px;
-}
-
-.footer1{
-  background: seagreen;
-  height: 20px;
-  
-}
-
-.fondo{
   background-image: url(/web/assets/image/fondo.jpg);
-}
-
-
-/* .impact {
-    font-family: "Latin Modern Roman";
-    font-style: oblique;
-  }
-
-.textoGrande {
-    font-size: 2rem;
- }
- 
- .bordes_redondeados{
-    border-radius: 5px;
- }
-
- .sin_linea{
-    text-decoration-line: none;
-    color: brown;
- }
-
- .fondo {
-
-    width: 2550px;
-    height: 1325px;
-    background-color: black;
+  height: 650px;
   
-  } */
-
-  /* .sobre {
-    position:absolute;
-    
-  }
-
-  .sobreposition button{
-    background-color: rgba(255, 255, 255, 0.041);
-    margin: 30px -840px 3px 890px;
-    padding: 9px 30px 9px 30px;
-    
+}
+.Introducccion{
+  text-align: center;
+  color: rgb(225, 255, 0);
+  font-family: "Latin Modern Roman";
+  font-size: 19px;
+  position: relative;
+  top:10px;
 }
 
-.texto1{
-    -webkit-text-stroke: 0.1px;
-    font-family: "Latin Modern Roman";
-    color: rgb(255, 1, 1);
-    font-size: 24px;
-    width: 2300px;
-    height: 20px;
-    padding: 10px;
-    text-align: right;
-    
-} */
+.borde{
+  background-image: url(/web/assets/image/borde.jpg);
+  width: 400px;
+  height: 400px;
+  margin: 10px;
+  display: inline;
+  border: 10px solid black;
+
+}
+/* ---------------------- */
+
+/* Footer-Pie de pagina */
+
+.textofooter{
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-family: "Latin Modern Roman";
+
+  position: relative;
+  top:22px;
+}
+.logo2{
+  height: 30px;
+  width: 30px;
+  position: relative;
+  left: 1350px;
+  bottom: 3px;
+}
+
+.logo3{
+  height: 25px;
+  width: 25px;
+  position: relative;
+  left: 1350px;
+  bottom:6px;
+
+}
+
+.logo4{
+  height: 25px;
+  width: 25px;
+  position: relative;
+  left: 1350px;
+  bottom:6px;
+
+}
+
+.logo5{
+  height: 35px;
+  width: 35px;
+  position: relative;
+  left: 1350px;
+  bottom:6px;
+
+}
+
+/* HTML producto */
+
+.versiones{
+
+  /* cartas */
+  background-color: rgba(240, 248, 255, 0);
+
+}
+
+.section2{
+  background-image: url(/web/assets/image/fondo2.jpg);
+  height: 910px;
+  
+}
+
+.borde2{
+  background-image: url(/web/assets/image/borde.jpg);
+  width: 280px;
+  height: 330px;
+  margin: 10px;
+  display: inline;
+  border: 10px solid black;
+
+}
