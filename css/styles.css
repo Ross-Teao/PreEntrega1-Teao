@@ -273,7 +273,6 @@ body{
   color: rgb(0, 242, 255);
   font-family: "Latin Modern Roman";
   font-size: 25px;
-  position: relative;
   top: 395px;
   position: absolute;
   left: 500px;
@@ -286,7 +285,6 @@ body{
   color: rgb(0, 242, 255);
   font-family: "Latin Modern Roman";
   font-size: 25px;
-  position: relative;
   top: 450px;
   position: absolute;
   left: 900px;
@@ -299,4 +297,26 @@ body{
   background-image: url(/web/assets/image/fondo5.jpg);
   height: 600px;
   
+}
+
+.video1{
+  top: 250px;
+  position: absolute;
+  left: 5vh;
+
+}
+
+.video2{
+  top: 250px;
+  position: absolute;
+  left: 78vh;
+
+}
+
+.video3{
+  top: 250px;
+  position: absolute;
+  left: 150vh;
+
+
 }
