@@ -4,15 +4,15 @@
 }
 
 body{
-  background-image: url(/web/assets/image/papiro.jpg);
-
+  background-image: url(/PreEntrega1-Teao/assets/image/papiro.jpg);
+  
 }
 
 /* Header */
 .header1 {
   height: 59px;
   text-align: left;
-  background-image: url(/web/assets/image/papiro.jpg);
+  background-image: url(/PreEntrega1-Teao/assets/image/papiro.jpg);
   
 }
 .logoweb{
@@ -29,13 +29,13 @@ body{
   height: 35px;
   text-align: center;
   height: auto;
-  background-image: url(/web/assets/image/papiro.jpg);
+  background-image: url(/PreEntrega1-Teao/assets/image/papiro.jpg);
 }
 .menu{
   color: rgb(5, 234, 255);
   height: 28px;
   width: 95px;
-  background-image: url(/web/assets/image/papiro.jpg);
+  background-image: url(/PreEntrega1-Teao/assets/image/papiro.jpg);
   border-radius: 10px;
   text-decoration-line: none;
   font: 86% sans-serif;
@@ -80,8 +80,10 @@ body{
 
 /* Primer section */
 .section1{
-  background-image: url(/web/assets/image/fondo.jpg);
-  height: 650px;
+  background-image: url(/PreEntrega1-Teao/assets/image/fondo.jpg);
+  height: 85vh;
+  background-repeat: round;
+  
   
 }
 .Introducccion{
@@ -94,7 +96,7 @@ body{
 }
 
 .borde{
-  background-image: url(/web/assets/image/borde.jpg);
+  background-image: url(/PreEntrega1-Teao/assets/image/borde.jpg);
   width: 400px;
   height: 400px;
   margin: 10px;
@@ -106,19 +108,25 @@ body{
 
 /* Footer-Pie de pagina */
 
+
+.footer{
+  height: 5vh;
+}
+
 .textofooter{
   text-align: center;
   color: rgb(0, 0, 0);
   font-family: "Latin Modern Roman";
   position: relative;
-  top:22px;
+  top: 25px;
+  font-size: 17px;
 
 }
 .logo2{
   height: 30px;
   width: 30px;
   position: relative;
-  left: 1210px;
+  left: 132vh;
   bottom: 3px;
 }
 
@@ -126,7 +134,7 @@ body{
   height: 25px;
   width: 25px;
   position: relative;
-  left: 1150px;
+  left: 132vh;
   bottom:6px;
 
 }
@@ -135,7 +143,7 @@ body{
   height: 25px;
   width: 25px;
   position: relative;
-  left: 1200px;
+  left: 133vh;
   bottom:6px;
 
 }
@@ -144,7 +152,7 @@ body{
   height: 35px;
   width: 35px;
   position: relative;
-  left: 1140px;
+  left: 134vh;
   bottom:6px;
 
 }
@@ -159,13 +167,14 @@ body{
 }
 
 .section2{
-  background-image: url(/web/assets/image/fondo2.jpg);
-  height: 1060px;
+  background-image: url(/PreEntrega1-Teao/assets/image/fondo2.jpg);
+  height: 85vh;
+  background-repeat: round;
   
 }
 
 .borde2{
-  background-image: url(/web/assets/image/borde.jpg);
+  background-image: url(/PreEntrega1-Teao/assets/image/borde.jpg);
   width: 280px;
   height: 330px;
   margin: 10px;
@@ -178,12 +187,12 @@ body{
 
 .version_boton1{
   color: rgb(5, 234, 255);
-  background-image: url(/web/assets/image/papiro.jpg);
+  background-image: url(/PreEntrega1-Teao/assets/image/papiro.jpg);
   border-radius: 10px;
   width: 220px;
   height: 220px;
   position: relative;
-  left: 1105px;
+  left: 1000px;
   bottom:700px;
   
   
@@ -191,12 +200,12 @@ body{
 
 .version_boton2{
   color: rgb(5, 234, 255);
-  background-image: url(/web/assets/image/papiro.jpg);
+  background-image: url(/PreEntrega1-Teao/assets/image/papiro.jpg);
   border-radius: 10px;
   width: 220px;
   height: 220px;
   position: relative;
-  left: 880px;
+  left: 775px;
   bottom:450px;
   display: inline block;
 
@@ -205,12 +214,12 @@ body{
 
 .version_boton3{
   color: rgb(5, 234, 255);
-  background-image: url(/web/assets/image/papiro.jpg);
+  background-image: url(/PreEntrega1-Teao/assets/image/papiro.jpg);
   border-radius: 10px;
   width: 220px;
   height: 220px;
   position: relative;
-  left: 655px;
+  left: 550px;
   bottom: 200px;
   display: inline block;
   
@@ -224,13 +233,14 @@ body{
   margin: 10px;
   border: 10px solid;
   position: relative;
-  border-image: url(/web/assets/image/papiro.jpg) 30 repeat;
+  border-image: url(/PreEntrega1-Teao/assets/image/papiro.jpg) 30 repeat;
 
 }
 
 .section3{
-  background-image: url(/web/assets/image/fondo3.jpg);
-  height: 790px;
+  background-image: url(/PreEntrega1-Teao/assets/image/fondo3.jpg);
+  height: 85vh;
+  background-repeat: round;
   
 }
 
@@ -246,8 +256,9 @@ body{
 /* HTML Contacto */
 
 .section4{
-  background-image: url(/web/assets/image/fondo4.jpg);
-  height: 600px;
+  background-image: url(/PreEntrega1-Teao/assets/image/fondo4.jpg);
+  height: 85vh;
+  background-repeat: round;
   
 }
 
@@ -285,37 +296,35 @@ body{
   color: rgb(0, 242, 255);
   font-family: "Latin Modern Roman";
   font-size: 25px;
-  top: 450px;
-  position: absolute;
-  left: 900px;
+  top: 70px;
+  position: relative;
+  left: 220px;
   
 }
 
 /* HTML Extra */
 
 .section5{
-  background-image: url(/web/assets/image/fondo5.jpg);
-  height: 600px;
+  background-image: url(/PreEntrega1-Teao/assets/image/fondo5.jpg);
+  height: 85vh;
+  background-repeat: round;
   
 }
 
 .video1{
+  position: relative;
   top: 250px;
-  position: absolute;
-  left: 5vh;
-
+  display: inline-block;
 }
 
 .video2{
+  position: relative;
   top: 250px;
-  position: absolute;
-  left: 75vh;
-
+  display: inline-block;
 }
 
 .video3{
+  position: relative;
   top: 250px;
-  position: absolute;
-  left: 145vh;
-
+  display: inline-block;
 } 
